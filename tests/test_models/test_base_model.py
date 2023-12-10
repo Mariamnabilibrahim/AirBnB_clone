@@ -138,7 +138,7 @@ class TestBaseModel_save(unittest.TestCase):
 
 
 class TestBaseModel_to_dict(unittest.TestCase):
-    """Unittests for testing to_dict method of the BaseModel class."""
+    """testing to_dict method of the BaseModel class."""
 
     def test_to_dict_type(self):
         bm = BaseModel()
@@ -189,4 +189,3 @@ class TestBaseModel_to_dict(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
