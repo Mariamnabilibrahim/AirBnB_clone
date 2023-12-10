@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""function unittests for models/base
+"""Function unittests for models/base
 
-classes:
+Classes:
     TestBaseModel_instantiation
     TestBaseModel_save
     TestBaseModel_to_dict
@@ -15,7 +15,7 @@ from models.base_model import BaseModel
 
 
 class TestBaseModel_instantiation(unittest.TestCase):
-    """testing instantiation of the BaseModel class."""
+    """Testing instantiation of the BaseModel class."""
     def test_no_args_instantiates(self):
         self.assertEqual(BaseModel, type(BaseModel()))
 
@@ -86,7 +86,7 @@ class TestBaseModel_instantiation(unittest.TestCase):
 
 
 class TestBaseModel_save(unittest.TestCase):
-    """testing save method of the BaseModel class."""
+    """Testing save method of the BaseModel class."""
 
     @classmethod
     def setUp(self):
@@ -138,7 +138,7 @@ class TestBaseModel_save(unittest.TestCase):
 
 
 class TestBaseModel_to_dict(unittest.TestCase):
-    """testing to_dict method of the BaseModel class."""
+    """Testing to_dict method of the BaseModel class."""
 
     def test_to_dict_type(self):
         bm = BaseModel()
