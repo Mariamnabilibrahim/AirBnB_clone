@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-<<<<<<< HEAD
-"""Defines HBnB console."""
-=======
-"""Function BnB console."""
->>>>>>> bb115d509ae99f0435b9a0e3f39b39615080772f
+"""Defines the HBnB console."""
 import cmd
 import re
 from shlex import split
